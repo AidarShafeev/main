@@ -4,7 +4,7 @@ import colorSharp2 from '../assets/img/color-sharp2.png';
 import Drums from '../assets/img/D.jpg';
 import Simon from '../assets/img/Simon.PNG';
 import TicTacToe from '../assets/img/TicTacToe.PNG';
-import Keeper from '../assets/img/Keeper.PNG';
+import Millionaire from '../assets/img/millionaire.PNG';
 import Cart from '../assets/img/cart.PNG';
 import Expense from '../assets/img/expenses.PNG';
 import 'animate.css';
@@ -38,10 +38,10 @@ export const Projects = () => {
          
         
          {
-         title: "Keeper App",
-         description: "Simple app to keep your notes",
-         imgUrl: Keeper,
-         url:"https://aidarshafeev.github.io/keeper-app/"
+         title: "Millionaire Quiz",
+         description: "Simulation of the world famous game",
+         imgUrl: Millionaire,
+         url:"https://aidarshafeev.github.io/millionaire-quiz/"
          },
 
 
@@ -72,7 +72,7 @@ export const Projects = () => {
                     <div className={isVisible ? "animate__animated animate__slideInUp" : ""}> */}
 
                    <h2>My web apps</h2>
-                    <p>Web development is my hobby. Visit some of my web apps following links below.</p>
+                    <p>Web development is my hobby. Visit some of my web apps following the links below.</p>
                     {/* </div>}
                     </TrackVisibility> */}
                     <TabContainer id='projects-tabs' defaultActiveKey='first'>
